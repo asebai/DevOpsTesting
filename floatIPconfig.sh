@@ -4,4 +4,3 @@ echo here is an available IP : "${myArray[3]}"
 openstack server add floating ip TSTDEVOPSD01 "${myArray[3]}"
 echo add dominos security group
 openstack server add security group TSTDEVOPSD01 DOMINOS
-
