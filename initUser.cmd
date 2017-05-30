@@ -16,4 +16,5 @@ Add-WindowsFeature Web-Server -IncludeAllSubFeature
 Write-Host "IIS installed"
 
 
-Write-Host "let us test it now"
+Write-Host "Now Restart"
+Restart-Computer
